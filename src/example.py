@@ -301,10 +301,6 @@ def run_example():
         console_output("An error occurred while creating Volume: {}".format(ex.message))
         raise
 
-    # Wait for volume to be ready
-    # console_output("Waiting for {} to be available...".format(resource_uri_utils.get_anf_volume(volume.id))) # probably don't need this
-    # wait_for_anf_resource(anf_client, volume.id)
-
     # Update Snapshot Policy
     console_output("Updating Snapshot Policy...")
 
