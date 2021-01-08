@@ -10,7 +10,7 @@ description: "This project demonstrates how to create and update a Snapshot Poli
 
 # Azure NetAppFiles Snapshot Policy SDK Sample for Python
 
-This project demonstrates how to use a Python sample application to create and update a Snapshot Policy for the Microsoft.NetApp resource provider.
+This project demonstrates how to use a Python sample application to create and update a Snapshot Policy for the Microsoft.NetApp resource provider. 
 
 In this sample application we perform the following operations:
 
@@ -73,7 +73,7 @@ If you don't already have a Microsoft Azure subscription, you can get a FREE tri
 # What is example.py doing? 
 
 This sample project is dedicated to demonstrate how to create and update a Snapshot Policy in Azure NetApp Files for a NFS v4.1 enabled volume. Similar to other examples, the authentication method is based on a service principal.
-This project will first create an ANF Account and then a Snapshot Policy that is tied to that Account. Afterwards it will create a Capacity Pool within the Account and finally a single Volume that uses the newly created Snapshot Policy.
+This project will first create an ANF Account and then a Snapshot Policy that is tied to that Account. Afterwards it will create a Capacity Pool within the Account and finally a single Volume that uses the newly created Snapshot Policy. 
 
 A Snapshot Policy uses schedules to create snapshots of Volumes that can be **hourly**, **daily**, **weekly**, **monthly**. The Snapshot Policy will also determine how many snapshots to keep.
 The sample will create a Snapshot Policy with all schedules and then update a single schedule within the policy, changing the value of the schedule's snapshots to keep.
@@ -114,7 +114,7 @@ Finally, all created resources will be deleted via the cleanup process (as long 
     ```
 
 Sample output
-![e2e execution](./media/e2e-pythoncrr.png)
+![e2e execution](./media/e2e-pythoncrr.png) 
 
 # References
 
