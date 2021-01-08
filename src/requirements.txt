@@ -1,0 +1,2 @@
+azure-mgmt-netapp>=0.13.0
+azure-mgmt-resource>=15.0.0
