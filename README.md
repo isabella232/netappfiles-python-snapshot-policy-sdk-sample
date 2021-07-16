@@ -31,7 +31,7 @@ If you don't already have a Microsoft Azure subscription, you can get a FREE tri
 
 ## Prerequisites
 
-1. Python (code was built and tested using version 3.8.5)
+1. Python (code was built and tested using version 3.9.5)
 2. Azure Subscription
 3. Subscription needs to be enabled for Azure NetApp Files. For more information, please refer to [this](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-register#waitlist) document.
 4. Resource Group created
@@ -114,7 +114,7 @@ Finally, all created resources will be deleted via the cleanup process (as long 
     ```
 
 Sample output
-![e2e execution](./media/e2e-pythoncrr.png) 
+![e2e execution](./media/e2e-execution.png) 
 
 # References
 
